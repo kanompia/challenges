@@ -41,5 +41,5 @@ jobs:
         with:
           push: true
           context: .
-          file: ./challenges/ci-cd-pipeline
+          file: ci-cd-pipeline
           tags: ${{ secrets.DOCKER_USER_BOBBIWAHYUDI }}/${{ github.event.repository.name }}:latest
