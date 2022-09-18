@@ -41,5 +41,5 @@ jobs:
         with:
           push: true
           context: .
-          file: ci-cd-pipeline
+          file: ci-cd-pipeline/Dockerfile
           tags: ${{ secrets.DOCKER_USER_BOBBIWAHYUDI }}/${{ github.event.repository.name }}:latest
